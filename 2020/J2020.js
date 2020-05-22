@@ -68,7 +68,7 @@ const load = () => {
     const formhanlde3 = document.forms[2];  
     //NaN?
     const dropsValue = document.getElementById("drops").value;
-    const drops = parseInt(dropsValue.value);
+    const drops = parseInt(dropsValue);
     
     const coordinatesBtn = document.getElementById("coordinates");
     const container = document.getElementById("container");
