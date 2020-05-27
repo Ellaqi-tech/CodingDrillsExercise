@@ -9,8 +9,8 @@
 </head>
 <body>
     <!-- J1 -->
-    <form id="j1" action="">
-         <legend>Problem J1: Dog Treats</legend>
+    <div style="margin: 3em;">
+        <div>Problem J1: Dog Treats</div>
         <div>
             <label for="s">Number of small treats</label>
             <input type="text" name="s" id="s">
@@ -24,13 +24,13 @@
             <input type="text" name="l" id="l">
         </div>
         <div>
-            <input type="submit" value="submit">
+            <button onclick=j1function()>J1</button>
         </div>
         <div id="output1"></div>
-    </form>
+    </div>  
     
     <!-- J2 -->
-    <form id="j2" action="">
+    <div style="margin: 3em;">
         <legend>Problem J2: Epidemiology</legend>
         <div>
             <input type="text" name="P" id="P"> people have
@@ -44,27 +44,25 @@ had the disease
             <input type="text" name="R" id="R"> people would be infected next day
         </div>
         <div>
-            <input type="submit" value="submit">
+            <button onclick=j2function()>J2</button>
         </div>
         <div id="output2"></div>
-    </form>
+    </div>
     
     <!-- J3 -->
-    <form id="j3" action="">
+    <div style="margin: 3em;">
         <legend>Problem J3: Art</legend>
         <div>
             <label for="drops">Number of drops of paint (between 2 and 100, interger):</label><br>
-            <input type="text" name="drops" id="drops">
+            <input type="number" name="drops" id="drops">
         </div>
-        <button id="coordinates">Coordinates</button>
-        
+        <button onclick=j3function()>Coordinates</button>
         <div id="container"></div>
-        
         <div>
-            <input type="submit" value="submit">
+            <button id="btn3">J3</button>
         </div>
         <div id="output3"></div>
-    </form>
+    </div>
     
 </body>
     <script type="text/javascript" src="J2020.js"></script>
